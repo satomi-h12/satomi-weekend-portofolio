@@ -612,3 +612,201 @@ lable.form-inline{
   font-weight: 700;
   color: white;
 }
+
+
+
+/*Footer Area*/
+/*
+.footer,
+.footer2{
+  overflow: auto;
+}
+.footer{
+  border: 2px solid black;
+  background-image: url(../images/footer-image.jpg);
+  background-position: center;
+  position: relative;
+}
+
+.footer-content{
+  display: flex;
+}
+
+.footer-content h3,
+.footer-content td,
+.footer-content th,
+.footer-content h4,
+.footer-content p,
+.footer-content form{
+  color: white;
+  padding: 5px;
+  line-height: 1;
+  font-size: 15px;
+  margin-left: 20px;
+}
+/*
+.footer-content h3{
+  display: block;
+}
+.footer-content:nth-child(1),
+.footer-content:nth-child(2),
+.footer-content:nth-child(3),
+.footer-content:nth-child(4){
+  float: left;
+}
+
+
+
+.contact .highlight{
+  color: #c7a17a;
+}
+
+.latest-post h4{
+  text-transform: uppercase;
+}
+.latest-post p{
+  font-size: 10px;
+  color: #c7a17a;
+} 
+.location h4{
+  color: #c7a17a;
+  text-transform: uppercase;
+}
+
+#search-btn{
+  background-color: #c7a17a;
+}
+
+
+.footer2{
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+.footer2 h2{
+  float: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer2 ul{
+ clear: left; 
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+  color: white;
+}
+.copyright p{
+padding-right: 0;
+font-weight: 700;
+}*/
+
+
+/*Footer Area*/
+.footer{
+  background-image: url('../images/footer-img.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.footer-content{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+.footer-content > div{
+  width: 24.25%;
+  float: left;
+  margin-right: 1%;
+}
+
+.footer-content > div:nth-child(4){
+  margin-right: 0;
+}
+.footer-content h3{
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-content td,
+.footer-content th{
+ color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.latest-post h4{
+  color: white;
+ text-transform: uppercase;
+}
+.latest-post p{
+  color: #c7a17a;
+}
+
+.contact .highlight{
+  color: #c7a17a;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.contact p{
+  color: white;
+  font-weight: 700;
+}
+.contact input{
+  color: #312A26;
+  background-color: white;
+  padding: 10px;
+}
+.contact input[type="submit"]{
+  background-color: #c7a17a;
+  color: #312A26;
+}
+
+.title2{
+  margin-top: 15px;
+}
+.location h4{
+  color: #c7a17a;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.location p{
+  color: white;
+  font-weight: 700;
+}
+
+/*Footer 2*/
+.footer2 {
+  background-color: black;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.footer2 h2,
+.footer2 p,
+.footer2 a{
+  color: white;
+}
+.footer2 li{
+  display: inline-block;
+}
+.footer2 .social{
+  text-align: center;
+  width: 49.5%;
+}
+.footer2 .copyright{
+  margin-right: 0;
+}
+
+@media screen and (max-width:768px){
+  /*If the screen size is from 0-768px, it will aplly all these css*/
+  .nav ul{
+    display: none;
+  }
+  .ads-box{
+    width: 100%;
+  }
+}
