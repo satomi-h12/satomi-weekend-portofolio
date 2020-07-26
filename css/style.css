@@ -440,3 +440,175 @@ body{
   padding: 15px 20px;
   text-decoration: none;
 }
+
+/*Reservation Form*/
+/*
+.res-form form{
+  border: 2px solid black;
+}
+
+.res-form :nth-child(1),
+.res-form :nth-child(2){
+ display: block;
+ background-position: center;
+ position: relative;
+}
+
+.res-form-left{
+  box-sizing: content-box;
+ border: 2px solid black;
+ overflow: auto;
+ height: 350px;
+ width:400px;
+ float: left;
+ position: relative;
+ background-color:rgba(220, 220, 220, 0.288);
+ margin-left: auto;
+ margin-right: auto;
+ position: absolute;
+ left: 300px;
+}
+.res-form-left input{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+}
+#res-details{
+  margin-left: 30px;
+}
+.res-form-left label{
+  display: block;
+  text-align: left;
+  padding-left:30px;
+  font-weight: 800;
+}
+.res-form-left .res-details{
+  margin-left: auto;
+  margin-right: auto;
+}
+.res-form-left .form-inline label, input{
+  display: inline-block;
+}
+
+.res-form-right{
+  box-sizing: content-box;
+  border: 2px solid black;
+  text-align: center;
+  overflow: auto;
+  height: 480px;
+  width:400px;
+  float: right;
+  position: relative;
+  background-color: rgba(220, 220, 220, 0.288);
+  margin: 0 auto;
+  position: absolute;
+  right: 300px;
+}
+.res-form-right textarea{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.res-form-right label{
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  font-weight: 800;
+}
+.res-form-right input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+.res-form-right checkbox{
+  display: inline-block;
+}
+.res-form-right .btn{
+  background-color: green;
+  color: white;
+  height: 25px;
+  text-transform: uppercase;
+}
+.form-inline input label{
+  display: inline-block;
+}
+
+.footer{
+  clear: both;
+}
+*/
+
+
+
+
+
+/*Reservation Form from Christian*/
+.reservation{
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.res-form {
+  overflow-block: auto;
+}
+
+.res-form-left,
+.res-form-right{
+  width: 49.5%;
+  float: left;
+  background-color: #f2f2f2;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.res-form-left{
+  margin-right: 1%;
+}
+.res-form lable,
+.res-form input,
+.res-form textarea,
+.res-form select{
+ display: block;
+ width: 100%;
+ font-family: 'Open sans', sans-serif;
+}
+.res-form input,
+.res-form textarea,
+.res-form select{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.res-form label{
+  font-weight: 700;
+}
+
+.subtitle{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input.form-inline,
+lable.form-inline{
+  display: inline;
+  width: auto;
+}
+
+/*これでも出来るはず↓*/
+/* .form-inline input,
+.form-inline label{
+  display: inline;
+  width: auto;
+} */
+
+.btn{
+  background-color: #4caf50;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
